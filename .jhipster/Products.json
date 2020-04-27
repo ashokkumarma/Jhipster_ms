@@ -1,0 +1,117 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "products",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "productid",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "shopifyproductid",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "shopifyvariantid",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "imageid",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "sku",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "salesprice",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "handlingcharges",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "transactioncharges",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "compareatprice",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "weight",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "barcode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "trackinventory",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "quantity",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "requiresshipping",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateadd",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "dateupd",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "chargetaxes",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "dimension",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "inventorypolicy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "idparent",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "combinations",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20200426080344",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "products",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "products"
+}
